@@ -2,8 +2,18 @@
 int main()
 {
   int num;
-  scanf("%d",num);
+  scanf("%d",&num);
   if(num<0)
-  {printf("Negative");}
-  else{printf("Positive");}
+  {
+    printf("Negative");
+  }
+  else if(num==0)
+  {
+    printf("Zero");
+  }
+  else
+  {
+    printf("Positive");
+  }
+  return 0;
 }
